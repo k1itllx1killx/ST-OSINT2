@@ -70,7 +70,49 @@ banner_text = """⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣦⣤⣈⡙⠛⠻⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣵⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠛⢉⣁⣠⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣦⣤⣀⣈⣉⡉⠙⠛⠛⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠟⠛⠛⠋⢉⣉⣁⣤⣤⣶⣷⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛"""  # <- replace with your banner string, e.g. "MY BANNER\n========"
+⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛
+
+"===============================================================",
+        "                     ST-OSINT2 — Device Info Generator ",
+        "=======================================================",
+        "Performed by : satan",
+        "Project name : st-osint2",
+        f"Date (EST)  : {est_str}",
+        "Environment  : Termux on Android (Python 3), lolcat available",
+        "Script file  : usb_inf.py",
+        "Version      : 2.0 (safe mode)",
+        "Mode         : Non-destructive output only — generation of sample data",
+        "",
+        "What it produces (fields):",
+        "  Hostname, Username, Email, Website, IPv4, IPv6, MAC, Router, DNS",
+        "  Altitude, GPS, City, Country, DNI, Age, Gender",
+        "  Password, Access Token, Card Number, Phone, Provider",
+        "  OS, Device, IMEI, Cookies, UID, Device ID, Fingerprint",
+        "  Iris ID, Face Hash, Social Number, Bank, BIOS Hash, Kernel Version",
+        "  Battery, WiFi SSID, Network Detected, Uptime Hours",
+        "",
+        "Output format (example lines, timestamps shown in EST):",
+        "  [11:43:55] [INFO] ~ Hostname: example.local",
+        "  [11:43:56] [INFO] ~ User: user4821",
+        "  [11:43:57] [INFO] ~ Email: alpha@abcde.org",
+        "",
+        "Run instructions:",
+        "  1) Edit banner_text inside banner() if you want custom ASCII art",
+        "  2) Ensure Python 3 is installed in Termux: pkg install python",
+        "  3) Optional: install lolcat for colored banners: pkg install ruby ; gem install lolcat",
+        "  4) Save as usb_inf.py and run: python3 usb_inf.py",
+        "",
+        "Options available inside the script:",
+        "  - single-pass full info print (one line per field, spaced by delay)",
+        "  - short-line mode (one short item per line)",
+        "  - banner printed with lolcat if available",
+        "",
+        "Usage & responsibility:",
+        "  This tool outputs structured device-like information for display and operational use.",
+        "  It performs no device scanning, writing, or destructive operations.",
+        "  Use with extreme caution. The author/operator assumes no responsibility for misuse.",
+        "==================================================================="
+"""  # <- replace with your banner string, e.g. "MY BANNER\n========"
 
 # ---- Provide banner() so you can customize behavior without editing other code ----
 def banner():
@@ -134,6 +176,8 @@ def banner():
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣦⣤⣀⣈⣉⡉⠙⠛⠛⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠟⠛⠛⠋⢉⣉⣁⣤⣤⣶⣷⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛
+  
+    
     """
     return banner_text
 

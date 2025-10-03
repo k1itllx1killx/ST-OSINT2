@@ -322,8 +322,13 @@ def print_full_info_once(delay_between_lines=1.0, show_banner_before=True):
     """
     if show_banner_before:
         show_banner(use_lolcat=True)
-        time.sleep(0.25)
-
+        time.sleep(1)
+    print(f"{timestamp_prefix_colored()}{BLUE}Attack initiated{RESET}")
+    time.sleep(3)
+    print(f"{timestamp_prefix_colored()}{BLUE}Collecting data...{RESET}")
+    time.sleep(2)
+    print()
+        
     info = generate_info_full()
     for key, value in info.items():
         prefix = timestamp_prefix_colored()
@@ -354,15 +359,8 @@ def main():
     print("USB DOOM SCAN v1.0 — Python for Termux")
     print("Created by exyzzer (safe mode)")
     print("=" * 60)
-    time.sleep(0.4)
-
-    # initial cosmetic status lines
-    print(f"{timestamp_prefix_colored()}{BLUE}Attack initiated{RESET}")
-    time.sleep(0.6)
-    print(f"{timestamp_prefix_colored()}{BLUE}Collecting data...{RESET}")
-    time.sleep(0.6)
-    print()
-
+    time.sleep(1)
+    # print option
     print("Choose an option:")
     print("1. extract full device-like info (single pass)")
     print("2. wipe device (operation disabled for safety)")

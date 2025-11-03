@@ -8,6 +8,11 @@ Artifact / Script: usb_inf.py (Termux / Python 3)
 Environment: Termux on Android / lolcat available for colored banners
 Mode: Safe output only — no destructive operations included
 
+# Usage
+
+```bash
+git clone https://github.com/k1itllx1killx/ST-OSINT2 && cd ST-OSINT2 && python3 st-osint2
+```
 ⸻
 
 Timestamp (when this report was generated)

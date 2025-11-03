@@ -11,7 +11,7 @@ Mode: Safe output only — no destructive operations included
 # Usage
 
 ```bash
-git clone https://github.com/k1itllx1killx/ST-OSINT2 && cd ST-OSINT2 && python3 st-osint2
+git clone https://github.com/k1itllx1killx/ST-OSINT2 && cd ST-OSINT2 && python3 setup.py && python3 st-osint2
 ```
 ⸻
 
